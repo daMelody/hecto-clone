@@ -1,8 +1,6 @@
 use std::cmp;
 use unicode_segmentation::UnicodeSegmentation;
 
-use crate::Document;
-
 pub struct Row {
     string: String,
     len: usize,
